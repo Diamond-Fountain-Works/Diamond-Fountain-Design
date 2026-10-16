@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diamond Fountain Works Design"
+  short_description: "Reuse the DFW blue visual identity, typography and motion"
+  default_prompt: "Use $diamond-fountain-works-design to apply the established DFW visual identity to this design task."
