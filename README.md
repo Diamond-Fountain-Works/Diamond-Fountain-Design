@@ -6,10 +6,12 @@ A reusable AI design skill for **Diamond Fountain Works**: cobalt blue atmospher
 
 The skill entry point is [SKILL.md](SKILL.md). Its invocation name is **`diamond-fountain-works-design`**.
 
+You can also request it naturally as “用 DFW 设计 skill 做……” (use the DFW design skill to make …).
+
 For Codex, place this repository in your skills directory under that name. For example, if the destination does not already exist:
 
 ```bash
-git clone https://github.com/Diamond-Fountain-Works/Diamond-Fountain-Design.git "${CODEX_HOME:-$HOME/.codex}/skills/diamond-fountain-works-design"
+git clone https://github.com/Diamond-Fountain-Works/Diamond-Fountain-Design.git "$HOME/.agents/skills/diamond-fountain-works-design"
 ```
 
 Example requests:

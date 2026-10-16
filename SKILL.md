@@ -1,6 +1,6 @@
 ---
 name: diamond-fountain-works-design
-description: Apply the established Diamond Fountain Works visual identity to websites, brand graphics and typography. Use when the user requests DFW branding or asks to reuse its blue dreamy aesthetic, angular wordmark, four-point star or staged title intro.
+description: Apply the Diamond Fountain Works visual identity to websites, graphics and typography. Use when the user names DFW design, DFW 设计 skill, or diamond-fountain-works-design, or asks for this brand identity.
 ---
 
 # Diamond Fountain Works Design
