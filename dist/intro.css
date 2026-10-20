@@ -1,0 +1,21 @@
+/* Unfold, move into the hero, then reveal the page background. */
+.intro[hidden]{display:none!important}
+.intro{position:fixed;inset:0;z-index:80;overflow:hidden;isolation:isolate;color:#f0fff4;outline:none;touch-action:none}
+.intro-pending,.intro-playing{overflow:hidden;overscroll-behavior:none}
+.intro-pending .intro{display:block!important}
+.intro-pending .header,.intro-pending main,.intro-pending footer,.intro-playing .header,.intro-playing main,.intro-playing footer{opacity:0;pointer-events:none}
+.intro-revealing .header,.intro-revealing main,.intro-revealing footer{opacity:1;transition:opacity .5s ease}
+.intro-playing .chrome-wordmark{visibility:hidden}
+.intro-playing .enter,.intro-complete .enter{animation:none!important}
+.chrome-wordmark{filter:none;animation:none!important;transform:none}
+.intro-curtain{position:absolute;inset:0;background:#0034e8}
+.intro-stage{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+.intro-brand{position:absolute;display:block;width:min(82vw,1100px);height:auto;overflow:visible}
+.intro-word{opacity:0;transform-box:view-box;transform-origin:center center;filter:none}
+.intro-spark{position:absolute;width:clamp(135px,22vw,340px);height:auto;opacity:0;filter:drop-shadow(0 0 14px #b3ffe7) drop-shadow(0 0 65px #76ffce88);transform-origin:center}
+.intro-rail{position:absolute;width:min(82vw,1100px);height:1px;background:linear-gradient(90deg,transparent,#c7fff5,transparent);box-shadow:0 0 20px #94ffdf;opacity:0;transform:scaleX(0)}
+.intro-pending:not(.intro-playing) .intro-spark{opacity:.8}
+@keyframes project-frame{from{clip-path:inset(7% 4%);filter:saturate(.8)}to{clip-path:inset(0);filter:saturate(1)}}
+@supports(animation-timeline:view()){@media(prefers-reduced-motion:no-preference){.project-art{animation:project-frame linear both;animation-timeline:view();animation-range:entry 0% entry 100%}}}
+.no-motion .project-art{clip-path:none!important;filter:none!important}
+@media(max-width:650px){.intro-brand{width:92vw}.intro-spark{width:43vw}.intro-rail{width:92vw}footer{gap:16px 20px}}

@@ -1,0 +1,11 @@
+# Local historical exports and verified working-record archives.
+.DS_Store
+/*.zip
+/*.tar.gz
+/*.bundle
+/*.png
+/*.gif
+/DFW-Star.svg
+/DFW-Design-Summary.md
+/建站说明.txt
+/新版建站说明.txt

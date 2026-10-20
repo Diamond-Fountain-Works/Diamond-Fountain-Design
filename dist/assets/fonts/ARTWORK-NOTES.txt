@@ -1,0 +1,10 @@
+Typography for Diamond Fountain Works
+
+Main title: fixed outlined artwork created with Ethnocentric Italic, with custom metallic gradients and extended strokes. This is a visual approximation of the supplied dashstar reference, not an identified original font. No Ethnocentric font software is embedded or redistributed in this website.
+Desktop artwork permission: https://typodermicfonts.com/desktop/
+
+Subtitles: Anton, self-hosted under the included SIL OFL.
+Body: Nunito, self-hosted under the included SIL OFL; Chinese uses the visitor's system sans-serif.
+Secondary techno lettering: Goldman Bold, under the included SIL OFL.
+
+The blue grain and blurred cyan/black forms are authored in CSS, SVG noise and canvas. Album-cover images are used as design references and are not served by this site.
